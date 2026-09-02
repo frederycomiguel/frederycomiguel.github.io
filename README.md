@@ -19,9 +19,9 @@ Portfólio pessoal — site estático (HTML/CSS puro, sem build).
 
 ## Currículo
 
-`curriculo.pdf` na raiz é a versão pública (sem telefone). Fonte:
-`FredyCV2026PT.pdf`. Se atualizar o CV, regenerar a versão sem telefone
-antes de substituir aqui.
+`curriculo.pdf` (PT) e `curriculo-en.pdf` (EN) são as versões públicas —
+sem telefone. Fontes: `FredyCV2026PT.pdf` / `FredyCV2026EN.pdf`. Se
+atualizar o CV, regenerar as versões sem telefone antes de substituir aqui.
 
 ## Rodar localmente
 

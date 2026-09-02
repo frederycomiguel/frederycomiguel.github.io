@@ -269,7 +269,7 @@ section:not(.hero) { padding: 70px 28px; border-top: 1px solid var(--panel-borde
 
 .project-slots {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
   gap: 18px;
   margin-top: 18px;
 }
@@ -319,11 +319,12 @@ section:not(.hero) { padding: 70px 28px; border-top: 1px solid var(--panel-borde
   .hero { grid-template-columns: 1fr; padding-top: 60px; }
   .hero__diagram { order: -1; margin-bottom: 20px; }
   .stack-grid { grid-template-columns: 1fr 1fr; }
-  .project-slots { grid-template-columns: 1fr; }
+  .project-slots { grid-template-columns: 1fr 1fr; }
   .topnav { gap: 18px; }
 }
 @media (max-width: 520px) {
   .stack-grid { grid-template-columns: 1fr; }
+  .project-slots { grid-template-columns: 1fr; }
   .hero__title { max-width: none; }
 }
 

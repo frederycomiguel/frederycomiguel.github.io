@@ -40,7 +40,7 @@
       </div>
     </div>
 
-    <div class="hero__diagram" role="img" aria-label="Diagrama esquemático mostrando PHP/Laravel como núcleo, conectado a APIs REST/SOAP, bancos legados, Python/Agentes de IA e Cloud/AWS">
+    <div class="hero__diagram" role="img" aria-label="Diagrama esquemático mostrando integração de sistemas como núcleo, conectado a PHP/Laravel, Java/Spring, Python/IA, Node, APIs REST/SOAP e bancos e filas">
       <svg viewBox="0 0 520 460" xmlns="http://www.w3.org/2000/svg" class="schema-svg">
         <!-- connection lines -->
         <g class="lines" stroke="#5B7FDB" stroke-width="1.4" fill="none">
@@ -54,36 +54,36 @@
         <!-- core node -->
         <g transform="translate(260,230)">
           <circle r="46" fill="#16213A" stroke="#F2A65A" stroke-width="2"/>
-          <text text-anchor="middle" dy="-2" class="node-label node-label--core">PHP</text>
-          <text text-anchor="middle" dy="16" class="node-label node-label--core">Laravel</text>
+          <text text-anchor="middle" dy="-2" class="node-label node-label--core">Integração</text>
+          <text text-anchor="middle" dy="16" class="node-label node-label--mono">de sistemas</text>
         </g>
 
-        <!-- satellite: APIs REST/SOAP -->
+        <!-- satellite: PHP/Laravel -->
         <g transform="translate(120,110)">
           <circle r="34" fill="#16213A" stroke="#5B7FDB" stroke-width="1.6"/>
-          <text text-anchor="middle" dy="-4" class="node-label">APIs</text>
-          <text text-anchor="middle" dy="12" class="node-label node-label--mono">REST · SOAP</text>
+          <text text-anchor="middle" dy="-4" class="node-label">PHP</text>
+          <text text-anchor="middle" dy="12" class="node-label">Laravel</text>
         </g>
 
-        <!-- satellite: legacy DBs -->
+        <!-- satellite: Java/Spring -->
         <g transform="translate(400,90)">
           <circle r="34" fill="#16213A" stroke="#5B7FDB" stroke-width="1.6"/>
-          <text text-anchor="middle" dy="-4" class="node-label">Sistemas</text>
-          <text text-anchor="middle" dy="12" class="node-label">legados</text>
+          <text text-anchor="middle" dy="-4" class="node-label">Java</text>
+          <text text-anchor="middle" dy="12" class="node-label">Spring</text>
         </g>
 
         <!-- satellite: Python/AI -->
         <g transform="translate(90,300)">
           <circle r="34" fill="#16213A" stroke="#F2A65A" stroke-width="1.6"/>
           <text text-anchor="middle" dy="-4" class="node-label">Python</text>
-          <text text-anchor="middle" dy="12" class="node-label">Agentes IA</text>
+          <text text-anchor="middle" dy="12" class="node-label">IA · MCP</text>
         </g>
 
-        <!-- satellite: Cloud -->
+        <!-- satellite: Node -->
         <g transform="translate(430,300)">
           <circle r="34" fill="#16213A" stroke="#5B7FDB" stroke-width="1.6"/>
-          <text text-anchor="middle" dy="-4" class="node-label">AWS</text>
-          <text text-anchor="middle" dy="12" class="node-label">Terraform</text>
+          <text text-anchor="middle" dy="-4" class="node-label">Node</text>
+          <text text-anchor="middle" dy="12" class="node-label">APIs</text>
         </g>
 
         <!-- satellite: data -->
@@ -214,6 +214,30 @@
           <span class="mono-tag">Composer package</span>
         </div>
         <a class="project__link" href="https://github.com/frederycomiguel/meu-gerador-de-codigo-laravel" target="_blank" rel="noopener">
+          Ver repositório →
+        </a>
+      </article>
+
+      <article class="project project--sec">
+        <span class="project__tag">Node.js</span>
+        <h3 class="project__title">Aiqfome API Challenge</h3>
+        <p class="project__desc">
+          API de clientes e lista de favoritos consumindo a Fake Store API,
+          com ambiente containerizado e documentação interativa.
+        </p>
+        <ul class="project__facts">
+          <li>CRUD de clientes + favoritos aninhados por cliente</li>
+          <li>Persistência com Sequelize ORM sobre PostgreSQL</li>
+          <li>Docker Compose de um comando + Swagger e coleção Postman</li>
+        </ul>
+        <div class="project__tags-row">
+          <span class="mono-tag">Node.js</span>
+          <span class="mono-tag">Express</span>
+          <span class="mono-tag">Sequelize</span>
+          <span class="mono-tag">PostgreSQL</span>
+          <span class="mono-tag">Docker</span>
+        </div>
+        <a class="project__link" href="https://github.com/frederycomiguel/Aiqfome-API-Challenge" target="_blank" rel="noopener">
           Ver repositório →
         </a>
       </article>

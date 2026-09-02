@@ -12,9 +12,10 @@ Portfólio pessoal — site estático (HTML/CSS puro, sem build).
 
 ## Projetos em destaque
 
-- Agent Platform (destaque) — orquestração de agentes de IA
+- Agent Platform (destaque) — orquestração de agentes de IA (Python/FastAPI)
 - PicPay Simplificado — API de pagamentos em Java/Spring Boot (EDA + RabbitMQ)
 - Laravel AI CRUD Generator — geração de features Laravel via IA (pacote Composer)
+- Aiqfome API Challenge — API de clientes e favoritos em Node.js (Express/Sequelize)
 
 ## Rodar localmente
 

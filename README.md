@@ -10,10 +10,11 @@ Portfólio pessoal — site estático (HTML/CSS puro, sem build).
 4. GitHub Pages publica automaticamente em alguns minutos (repositório
    com esse nome exato não precisa configurar nada em Settings → Pages)
 
-## Antes de publicar, preencher
+## Projetos em destaque
 
-- Seção "Projetos": 2 slots com "Em breve" — preencher quando decidir
-  quais outros projetos destacar (SIGAS, Diaconia App, Hemominas, etc.)
+- Agent Platform (destaque) — orquestração de agentes de IA
+- PicPay Simplificado — API de pagamentos em Java/Spring Boot (EDA + RabbitMQ)
+- Laravel AI CRUD Generator — geração de features Laravel via IA (pacote Composer)
 
 ## Rodar localmente
 

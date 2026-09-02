@@ -167,14 +167,57 @@
     </article>
 
     <div class="project-slots">
-      <article class="project project--slot">
-        <span class="project__tag project__tag--muted">Em breve</span>
-        <p class="slot-text">Reservado para um próximo projeto de portfólio.</p>
+
+      <article class="project project--sec">
+        <span class="project__tag">Java · Spring Boot</span>
+        <h3 class="project__title">PicPay Simplificado</h3>
+        <p class="project__desc">
+          API REST de pagamentos: depósito e transferência entre usuários, com
+          consulta a autorizador externo antes de concluir e notificação
+          disparada de forma assíncrona.
+        </p>
+        <ul class="project__facts">
+          <li>Transferência como transação ACID, com rollback automático em falha</li>
+          <li>Notificação via RabbitMQ com Dead Letter Queue para reprocessamento</li>
+          <li>Testes de service + pipeline CI no GitHub Actions</li>
+        </ul>
+        <div class="project__tags-row">
+          <span class="mono-tag">Java 21</span>
+          <span class="mono-tag">Spring Boot 3</span>
+          <span class="mono-tag">PostgreSQL</span>
+          <span class="mono-tag">RabbitMQ</span>
+          <span class="mono-tag">Docker</span>
+        </div>
+        <a class="project__link" href="https://github.com/frederycomiguel/picpay-simplificado" target="_blank" rel="noopener">
+          Ver repositório →
+        </a>
       </article>
-      <article class="project project--slot">
-        <span class="project__tag project__tag--muted">Em breve</span>
-        <p class="slot-text">Reservado para um próximo projeto de portfólio.</p>
+
+      <article class="project project--sec">
+        <span class="project__tag">PHP / Laravel · IA</span>
+        <h3 class="project__title">Laravel AI CRUD Generator</h3>
+        <p class="project__desc">
+          Ferramenta que interpreta um pedido em linguagem natural e gera uma
+          feature Laravel inteira — model, migration, factory, service,
+          controller, requests, rotas e teste — além de refatorar e remover
+          features. Empacotada como pacote Composer.
+        </p>
+        <ul class="project__facts">
+          <li>Gera camada Service + Controller com injeção de dependência e teste PHPUnit</li>
+          <li>Comandos para adicionar colunas (nova migration) e reverter a feature inteira</li>
+          <li>Interface web servida de dentro do próprio pacote</li>
+        </ul>
+        <div class="project__tags-row">
+          <span class="mono-tag">PHP 8.2</span>
+          <span class="mono-tag">Laravel 12</span>
+          <span class="mono-tag">Google Gemini</span>
+          <span class="mono-tag">Composer package</span>
+        </div>
+        <a class="project__link" href="https://github.com/frederycomiguel/meu-gerador-de-codigo-laravel" target="_blank" rel="noopener">
+          Ver repositório →
+        </a>
       </article>
+
     </div>
   </section>
 

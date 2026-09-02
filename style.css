@@ -283,6 +283,19 @@ section:not(.hero) { padding: 70px 28px; border-top: 1px solid var(--panel-borde
 }
 .slot-text { color: #5D6B8A; font-size: 14px; margin: 0; }
 
+.project--sec {
+  border: 1px solid var(--panel-border);
+  background: var(--panel);
+  padding: 26px;
+}
+.project--sec .project__title {
+  font-size: 19px;
+  margin-bottom: 10px;
+}
+.project--sec .project__desc { font-size: 14px; margin-bottom: 16px; }
+.project--sec .project__facts { margin-bottom: 18px; }
+.project--sec .project__tags-row { margin-bottom: 18px; }
+
 /* ---------- About ---------- */
 .about__body p {
   color: var(--muted);

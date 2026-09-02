@@ -17,6 +17,12 @@ Portfólio pessoal — site estático (HTML/CSS puro, sem build).
 - Laravel AI CRUD Generator — geração de features Laravel via IA (pacote Composer)
 - Aiqfome API Challenge — API de clientes e favoritos em Node.js (Express/Sequelize)
 
+## Currículo
+
+`curriculo.pdf` na raiz é a versão pública (sem telefone). Fonte:
+`FredyCV2026PT.pdf`. Se atualizar o CV, regenerar a versão sem telefone
+antes de substituir aqui.
+
 ## Rodar localmente
 
 Não precisa de servidor — é só abrir `index.html` no navegador.

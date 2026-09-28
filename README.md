@@ -1,33 +1,29 @@
 # frederycomiguel.github.io
 
-Portfólio pessoal — site estático (HTML/CSS puro, sem build).
+Portfólio pessoal — hero em 3D (React + Three.js) sobre uma página de
+conteúdo estático. Publicado via GitHub Pages, servindo direto da raiz
+deste repositório.
 
-## Publicar no GitHub Pages
+## Estrutura
 
-1. Crie um repositório chamado exatamente `frederycomiguel.github.io`
-2. Coloque `index.html` e `style.css` na raiz do repositório
-3. Push para `main`
-4. GitHub Pages publica automaticamente em alguns minutos (repositório
-   com esse nome exato não precisa configurar nada em Settings → Pages)
+- `index.html`, `assets/` — build de produção (o que o GitHub Pages serve)
+- `app/` — código-fonte (React + Vite + Three.js). Ver `app/README.md` para
+  como rodar local e gerar um novo build.
+- `curriculo.pdf`, `curriculo-en.pdf` — versões públicas do CV, **sem
+  telefone**. Se atualizar o CV, regenerar sem telefone antes de substituir
+  aqui (e em `app/public/`).
+
+## Publicar mudanças
+
+1. Edite dentro de `app/`
+2. `cd app && npm run build`
+3. Copie `app/dist/index.html` e `app/dist/assets/*` para a raiz do repo
+4. Commit e push para `main` — GitHub Pages publica automaticamente
 
 ## Projetos em destaque
 
 - Agent Platform (destaque) — orquestração de agentes de IA (Python/FastAPI)
+- EiOrganiza — CRM SaaS multi-tenant (NestJS/TypeORM), produto proprietário
 - PicPay Simplificado — API de pagamentos em Java/Spring Boot (EDA + RabbitMQ)
 - Laravel AI CRUD Generator — geração de features Laravel via IA (pacote Composer)
 - Aiqfome API Challenge — API de clientes e favoritos em Node.js (Express/Sequelize)
-
-## Currículo
-
-`curriculo.pdf` (PT) e `curriculo-en.pdf` (EN) são as versões públicas —
-sem telefone. Fontes: `FredyCV2026PT.pdf` / `FredyCV2026EN.pdf`. Se
-atualizar o CV, regenerar as versões sem telefone antes de substituir aqui.
-
-## Rodar localmente
-
-Não precisa de servidor — é só abrir `index.html` no navegador.
-Se quiser servir localmente:
-
-```bash
-python3 -m http.server 8000
-```

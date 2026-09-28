@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <rect width="32" height="32" fill="#0B0D12"/>
+  <!-- bust silhouette, "person" -->
+  <circle cx="16" cy="12" r="6" fill="none" stroke="#4FD1C0" stroke-width="1.6"/>
+  <path d="M5 27c0-6.5 4.9-10.5 11-10.5S27 20.5 27 27" fill="none" stroke="#4FD1C0" stroke-width="1.6" stroke-linecap="round"/>
+  <!-- data/circuit accent over the face -->
+  <g fill="#4FD1C0">
+    <rect x="13" y="10" width="1.4" height="1.4"/>
+    <rect x="17.6" y="10" width="1.4" height="1.4"/>
+    <rect x="15.3" y="13" width="1.4" height="1.4"/>
+  </g>
+</svg>

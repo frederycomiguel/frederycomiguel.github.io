@@ -35,7 +35,7 @@ const PROJECTS = [
     title: 'Resume Fit RAG',
     desc: 'Envie seu currículo pelo WhatsApp e receba uma avaliação real, calculada na hora pelo Gemini, contra um conjunto de vagas reais e abertas — depois pergunte o que quiser sobre o resultado, com busca vetorial (RAG) por trás.',
     facts: ['Scoring por LLM: uma chamada ao Gemini por vaga, nota + gaps estruturados', 'pgvector para embeddings (Voyage AI) e busca semântica top-k', 'n8n + WAHA para entrega via WhatsApp, tudo em Docker Compose'],
-    tags: ['LangChain.js', 'Gemini', 'pgvector', 'n8n', 'Docker'],
+    tags: ['RAG', 'LangChain.js', 'Gemini', 'Voyage AI', 'pgvector', 'n8n'],
     link: 'https://github.com/frederycomiguel/resume-fit-rag',
   },
   {

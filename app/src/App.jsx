@@ -31,6 +31,14 @@ const PROJECTS = [
     link: 'https://github.com/frederycomiguel/agent-platform',
   },
   {
+    tag: 'Node.js / TypeScript · RAG',
+    title: 'Resume Fit RAG',
+    desc: 'Envie seu currículo pelo WhatsApp e receba uma avaliação real, calculada na hora pelo Gemini, contra um conjunto de vagas reais e abertas — depois pergunte o que quiser sobre o resultado, com busca vetorial (RAG) por trás.',
+    facts: ['Scoring por LLM: uma chamada ao Gemini por vaga, nota + gaps estruturados', 'pgvector para embeddings (Voyage AI) e busca semântica top-k', 'n8n + WAHA para entrega via WhatsApp, tudo em Docker Compose'],
+    tags: ['LangChain.js', 'Gemini', 'pgvector', 'n8n', 'Docker'],
+    link: 'https://github.com/frederycomiguel/resume-fit-rag',
+  },
+  {
     tag: 'Node.js · SaaS multi-tenant',
     title: 'EiOrganiza',
     desc: 'CRM SaaS multi-tenant para clínicas de estética, construído com um sócio desde dezembro de 2025. Isolamento completo entre clientes via schema dedicado por tenant no Postgres, com injeção automática de contexto via middleware.',

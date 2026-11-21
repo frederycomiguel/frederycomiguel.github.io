@@ -24,6 +24,7 @@ deste repositório.
 
 - Agent Platform (destaque) — orquestração de agentes de IA (Python/FastAPI)
 - Resume Fit RAG — avaliação de currículo x vagas reais via Gemini + RAG (Node.js/LangChain.js)
+- Finza — finanças pessoais full stack com IA (Gemini), NestJS + Next.js (repo privado)
 - EiOrganiza — CRM SaaS multi-tenant (NestJS/TypeORM), produto proprietário
 - PicPay Simplificado — API de pagamentos em Java/Spring Boot (EDA + RabbitMQ)
 - Laravel AI CRUD Generator — geração de features Laravel via IA (pacote Composer)

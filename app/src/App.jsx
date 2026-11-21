@@ -39,6 +39,14 @@ const PROJECTS = [
     link: 'https://github.com/frederycomiguel/resume-fit-rag',
   },
   {
+    tag: 'NestJS · Next.js · IA',
+    title: 'Finza',
+    desc: 'Gestor de finanças pessoais full stack com contas, categorias, lançamentos e painel. Recursos de IA com Gemini: lance gastos por frase ("gastei 45 no mercado ontem") com confirmação antes de salvar e receba uma análise do período.',
+    facts: ['Multiusuário com isolamento por usuário em todas as consultas, JWT e rate limiting', 'IA que só sugere: IDs resolvidos no servidor e só totais agregados vão ao modelo', 'Testes E2E contra Postgres real, migrations e Docker Compose'],
+    tags: ['NestJS', 'Next.js', 'PostgreSQL', 'Gemini', 'Docker'],
+    note: 'Repositório privado por enquanto.',
+  },
+  {
     tag: 'Node.js · SaaS multi-tenant',
     title: 'EiOrganiza',
     desc: 'CRM SaaS multi-tenant para clínicas de estética, construído com um sócio desde dezembro de 2025. Isolamento completo entre clientes via schema dedicado por tenant no Postgres, com injeção automática de contexto via middleware.',
